@@ -1,9 +1,9 @@
-.table__cell_heading{
+.table__cell-heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__cell_heading h4{
+.table__cell-heading h4{
   margin: 0;
 }
