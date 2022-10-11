@@ -38,7 +38,7 @@
 @import url(../blocks/kaufman/title.css);
 @import url(../blocks/kaufman/table/table.css);
 @import url(../blocks/kaufman/table/__cell/table__cell.css);
-@import url(../blocks/kaufman/table/__cell-heading/_theme/table__cell-heading_theme_dark.css);
+@import url(../blocks/kaufman/table/__cell/__cell_heading/table__cell_heading.css);
 @import url(../blocks/kaufman/table/__cell-text/_theme/table__cell-text_theme_dark.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/section-subtitle.css);
