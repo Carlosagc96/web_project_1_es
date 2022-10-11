@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprender a aprender</title>
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -51,6 +51,127 @@
           </div>
         </div>
       </section>
+
+      <section class="techniques">
+        <div class="section-title">
+          <h2>Técnicas de aprendizaje</h2>
+        </div>
+        <div class="section-subtitle">
+          <h3>Cinco estrategias por Barbara Oakley</h3>
+        </div>
+        <ul class="cards">
+          <li class="cards__item">
+            <div class="cards__image">
+              <img src="images/cards-attention.png" alt="Atencion">
+            </div>
+            <div class="cards__title">
+              <h4>Piensa de dos maneras distintas</h4>
+            </div>
+            <div class="cards__description">
+              <p>Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__image">
+              <img src="images/cards-recall.png" alt="Atencion">
+            </div>
+            <div class="cards__title">
+              <h4>Piensa de dos maneras distintas</h4>
+            </div>
+            <div class="cards__description">
+              <p>Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__image">
+              <img src="images/cards-interleaving.png" alt="Atencion">
+            </div>
+            <div class="cards__title">
+              <h4>Piensa de dos maneras distintas</h4>
+            </div>
+            <div class="cards__description">
+              <p>Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__image">
+              <img src="images/cards-question.png" alt="Atencion">
+            </div>
+            <div class="cards__title">
+              <h4>Piensa de dos maneras distintas</h4>
+            </div>
+            <div class="cards__description">
+              <p>Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__image">
+              <img src="images/cards-competence.png" alt="Atencion">
+            </div>
+            <div class="cards__title">
+              <h4>Piensa de dos maneras distintas</h4>
+            </div>
+            <div class="cards__description">
+              <p>Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <div class="section-title">
+          <h2>Charlas TED</h2>
+        </div>
+        <div class="section-subtitle">
+          <h3>Para los amantes de la procrastinación</h3>
+        </div>
+        <div class="video__iframes">
+            <iframe class="video__iframe"  width="720" height="405" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+            <iframe class="video__iframe" width="720" height="405" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <div class="oakley-feynman">
+        <section class="oakley">
+        <div class="two-columns">
+          <div class="two-columns__brief">
+            <h3>La historia de Barbara Oakley</h3>
+          </div>
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraph">
+              <p>Durante la infancia de Barbara, las matemáticas no le surgieron de forma innata. Pensaba que era
+                una persona más orientada a las humanidades, y no precisamente brillante. En vistas a convertirse
+                en lingüista, después de terminar el instituto se alistó en el ejército, donde la mandaron a aprender
+                ruso. Tras varios años de servicio, durante los cuales ascendió al rango de capitán, Barbara dejó el
+                ejército y decidió estudiar ingeniería. Fue en este momento cuando desarrolló su metodología de
+                aprendizaje, porque se vio obligada a reprogramar su cerebro para un tipo de aprendizaje distinto.
+                Resulta que cuando algo no te sale de forma natural, el hecho de tener que trabajar duro para
+                obtener conocimientos, que otras personas pueden captar a la primera, te da un conocimiento más
+                profundo y completo del tema en cuestión.</p>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <section class="feynman">
+        <div class="feynman__title">
+          <h2>La técnica Feynman</h2>
+            <div class="feynman__subtitle">
+              <h3>Aprender sin olvidar</h3>
+            </div>
+        </div>
+        <div class="feynman__link">
+          <nav>
+            <a href="#">Más →</a>
+          </nav>
+        </div>
+        <div>
+          <img src="images/feynman.png" alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. Ta Técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton.">
+        </div>
+        </section>
+      </div>
 
       <section class="digits">
         <div class="section-title">
@@ -129,22 +250,39 @@
         </ul>
       </section>
 
-      <section class="feynman">
-        <div class="feynman__title">
-          <h2>La técnica Feynman</h2>
-            <div class="feynman__subtitle">
-              <h3>Aprender sin olvidar</h3>
-            </div>
+      <div class="khan">
+        <section class="khan__container">
+        <div class="khan__author">
+          <h3>Salman Khan</h3>
         </div>
-        <div class="feynman__link">
-          <nav>
-            <a href="#">Más →</a>
-          </nav>
+        <div class="khan__title">
+          <h2>La escuela del mundo</h2>
         </div>
-        <div>
-          <img src="images/feynman.png" alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. Ta Técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton.">
+        <div class="khan__quote">
+          <p>La pasión e innovación de Sal Khan están transformando el aprendizaje de millones de
+            estudiantes de todo el mundo. "La escuela del mundo" es una lectura obligatoria para todos
+            aquellos que estén comprometidos a mejorar la educación y quieran que estudiantes de todos los
+            rincones del mundo adquieran las habilidades y conocimientos necesarios para tener éxito
+            académico, profesional y en la vida en general.</p>
         </div>
-      </section>
+        <div class="khan__quote-author">
+          <h4>George Lucas</h4>
+        </div>
+        <div class="khan__quote-subline">
+          <h4>Director de cine</h4>
+        </div>
+        <div class="khan__book-container">
+          <div class="khan__book-pic">
+            <img src="images/khan-book-2.png" alt="Libro de Khan">
+          </div>
+          <div class="khan__buy-link">
+            <nav>
+              <a href="#">Comprar libro →</a>
+            </nav>
+          </div>
+        </div>
+        </section>
+      </div>
 
       <section class="kaufman">
         <div class="section-title_theme_dark">
@@ -236,6 +374,31 @@
           </li>
         </ul>
         <img src="/images/kaufman-triangle.svg" alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad">
+      </section>
+
+      <section class="resources">
+        <div class="section-title">
+          <h2>Recursos Útiles</h2>
+        </div>
+        <div class="section-subtitle">
+          <h3>Más materiales sobre técnicas y trucos de aprendizaje</h3>
+        </div>
+        <div class="resources__logo-zone">
+          <nav>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-tedED.png" alt="TEDEd">
+            </a>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-Medium.png" alt="Medium">
+            </a>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-dezeen.png" alt="dezeen">
+            </a>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-goodreads.png" alt="goodreads">
+            </a>
+          </nav>
+        </div>
       </section>
     </main>
 

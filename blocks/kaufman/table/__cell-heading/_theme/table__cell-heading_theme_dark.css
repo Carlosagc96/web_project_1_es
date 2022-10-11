@@ -1,0 +1,9 @@
+.table__cell-heading_theme_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__cell-heading_theme_dark h4{
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.kaufman{
+  background-color: #1f1f1f;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.kaufman img{
+  position: absolute;
+  right: -124px;
+  animation: rotation 20s ease-in-out infinite;
+}
+
+
+

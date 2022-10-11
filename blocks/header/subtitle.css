@@ -1,0 +1,10 @@
+.subtitle{
+  position: absolute;
+  z-index: 1;
+  left: 64px;
+  width: 388px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
