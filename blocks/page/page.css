@@ -18,4 +18,11 @@ a:hover{
   opacity: .5;
 }
 
+p{
+  margin: 0;
+}
+
+p:last-child{
+  margin-bottom: 30px;
+}
 /* including elements with key-value modifiers */

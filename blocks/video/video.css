@@ -1,5 +1,7 @@
 .video{
-  margin: 0 auto;
+  margin: 0 auto 0;
+    position: relative;
+    top: 80px;
 }
 
 
