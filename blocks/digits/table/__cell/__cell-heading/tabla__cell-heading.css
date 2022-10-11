@@ -1,0 +1,9 @@
+.tabla__cell-heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tabla__cell-heading h4{
+  margin: 0;
+}
