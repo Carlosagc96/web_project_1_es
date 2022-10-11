@@ -1,5 +1,5 @@
 # Web_project-1-es
-Proyecto del sprint 2 de Practicum usando HTML y CSS. Contiene metodologías tales como:
+Proyecto del sprint 2 de Practicum usando HTML y CSS. Contiene una sola página web dividida en 11 distintos bloques. Se usa metodologías tales como:
 
 * Posicionamiento
 * Opacidad
@@ -7,10 +7,8 @@ Proyecto del sprint 2 de Practicum usando HTML y CSS. Contiene metodologías tal
 * Animación
 * Transición
 
-Alt-H1
-
 El siguiente plan para mejorar el proyecto está en incluir lo siguiente:
 
 * Sombras y animaciones en las imagenes del bloque Techniques.
-* Un formulario antes del bloque Footer
-* Gradientes lineales en el bloque Khan
+* Un formulario antes del bloque Footer.
+* Gradientes lineales en el bloque Khan.
