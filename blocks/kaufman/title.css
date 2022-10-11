@@ -1,4 +1,4 @@
-.section__title{
+.title{
   margin: 0px auto 20px auto;
   padding-top: 90px;
   width: 60%;
@@ -9,7 +9,7 @@
   z-index: 1;
 }
 
-.section__title h2{
+.title h2{
   margin: 0;
   font-size: 60px;
 }

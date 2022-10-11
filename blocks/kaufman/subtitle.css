@@ -1,4 +1,4 @@
-.section-subtitle_theme_dark{
+.subtitle{
   margin: 0 auto 0 auto;
   width: 60%;
   line-height: 34px;
@@ -7,7 +7,7 @@
   color: white;
 }
 
-.section-subtitle_theme_dark h3{
+.subtitle h3{
   margin: 0;
   font-size: 24px;
 }
