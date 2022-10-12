@@ -4,6 +4,6 @@
   font-weight: normal;
 }
 
-.tabla__cell-text p{
+.tabla__cell-text:last-child{
   margin: 20px 0 0 0;
 }

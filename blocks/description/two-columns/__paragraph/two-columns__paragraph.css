@@ -5,5 +5,9 @@
 }
 
 .two-columns__paragraph p{
+  margin: 0 0 30px;
+}
+
+.two-columns__paragraph p:nth-child(3){
   margin: 0;
 }
